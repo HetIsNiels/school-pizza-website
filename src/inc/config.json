@@ -1,0 +1,267 @@
+{
+	"locations": [
+		{
+			"name": "Sopranos Pizza Rotterdam",
+			"adress": "Lijnbaan 31",
+			"zip": "3012EK",
+			"city": "Rotterdam",
+			"tel": "010-5671234",
+			"mail": "rotterdam@sopranos.nl",
+			"location": "51.923258,4.4753612",
+			"visiting_hours": [10, 23]
+		},
+		{
+			"name": "Sopranos Pizza Amsterdam",
+			"adress": "Kalverstraat 114",
+			"zip": "1012PK",
+			"city": "Amsterdam",
+			"tel": "020-9874563",
+			"mail": "amsterdam@sopranos.nl",
+			"location": "52.3699747,4.8912435",
+			"visiting_hours": [10, 23]
+		},
+		{
+			"name": "Sopranos Pizza Utrecht",
+			"adress": "Oude Gracht 157",
+			"zip": "3511 AK",
+			"city": "Utrecht",
+			"tel": "030-2314701",
+			"mail": "utrecht@sopranos.nl",
+			"location": "52.0914649,5.1184227",
+			"visiting_hours": [10, 23]
+		}
+	],
+	"products": {
+		"Pizza's": [
+			{
+				"name": "Margherita",
+				"desc": "Tomaat, kaas en oregano.",
+				"price": 9,
+				"type": "pizza",
+				"img": "assets/img/products/margarita.jpg",
+				"extra": [
+					{
+						"name": "large (35 cm)",
+						"price": 2
+					},
+					{
+						"name": "calzone",
+						"price": 1.5
+					}
+				]
+			},
+			{
+				"name": "Napoletana",
+				"desc": "Tomaat, kaas, ansjovis, olijven, kappertjes en oregano.",
+				"price": 9.5,
+				"type": "pizza",
+				"img": "assets/img/products/napoletana.jpg",
+				"extra": [
+					{
+						"name": "large (35 cm)",
+						"price": 2
+					},
+					{
+						"name": "calzone",
+						"price": 1.5
+					}
+				]
+			},
+			{
+				"name": "Prosciutto",
+				"desc": "Tomaat, kaas, ham en oregano.",
+				"price": 9.5,
+				"type": "pizza",
+				"img": "assets/img/products/proscuitto.jpg",
+				"extra": [
+					{
+						"name": "large (35 cm)",
+						"price": 2
+					},
+					{
+						"name": "calzone",
+						"price": 1.5
+					}
+				]
+			},
+			{
+				"name": "Borromea",
+				"desc": "Tomaat, kaas, ham, champignons en oregano.",
+				"price": 9.5,
+				"type": "pizza",
+				"img": "assets/img/products/borromea.jpg",
+				"extra": [
+					{
+						"name": "large (35 cm)",
+						"price": 2
+					},
+					{
+						"name": "calzone",
+						"price": 1.5
+					}
+				]
+			},
+			{
+				"name": "Hawai",
+				"desc": "Tomaat, kaas, ham, annanas en oregano.",
+				"price": 10,
+				"type": "pizza",
+				"img": "assets/img/products/hawaii.jpg",
+				"extra": [
+					{
+						"name": "large (35 cm)",
+						"price": 2
+					},
+					{
+						"name": "calzone",
+						"price": 1.5
+					}
+				]
+			},
+			{
+				"name": "Quattro formaggi",
+				"desc": "Tomaat, 4 soorten italiaanse kaas en oregano.",
+				"price": 10.5,
+				"type": "pizza",
+				"img": "assets/img/products/quattro_formaggi.jpg",
+				"extra": [
+					{
+						"name": "large (35 cm)",
+						"price": 2
+					},
+					{
+						"name": "calzone",
+						"price": 1.5
+					}
+				]
+			},
+			{
+				"name": "Shoarma",
+				"desc": "Tomaat, kaas, uien, paprika, shoarma en oregano.",
+				"price": 9.5,
+				"type": "pizza",
+				"img": "assets/img/products/shoarma.jpg",
+				"extra": [
+					{
+						"name": "large (35 cm)",
+						"price": 2
+					},
+					{
+						"name": "calzone",
+						"price": 1.5
+					}
+				]
+			}
+		],
+		"Specials": [
+			{
+				"name": "Buffalo Wings",
+				"desc": "",
+				"price": 4.95,
+				"type": "special",
+				"img": "assets/img/products/buffalo.jpg",
+				"extra": []
+			},
+			{
+				"name": "Kick'n Chicken",
+				"desc": "",
+				"price": 4.95,
+				"type": "special",
+				"img": "assets/img/products/kickchick.png",
+				"extra": []
+			},
+			{
+				"name": "Stokbrood",
+				"desc": "",
+				"price": 1.95,
+				"type": "special",
+				"img": "assets/img/products/stokbrood.jpg",
+				"extra": [
+					{
+						"name": "kruidenboter",
+						"price": 0
+					}
+				]
+			},
+			{
+				"name": "Cheese Bites",
+				"desc": "",
+				"price": 1.95,
+				"type": "special",
+				"img": "assets/img/products/cheesebites.jpg",
+				"extra": []
+			},
+			{
+				"name": "Pasta Pollo",
+				"desc": "",
+				"price": 7.99,
+				"type": "special",
+				"img": "assets/img/products/pastapollo.jpg",
+				"extra": []
+			},
+			{
+				"name": "Pasta Bolognese",
+				"desc": "",
+				"price": 7.99,
+				"type": "special",
+				"img": "assets/img/products/pastabolognese.jpg",
+				"extra": []
+			}
+		],
+		"Dranken": [
+			{
+				"name": "50cl Chaudfontaine",
+				"desc": "",
+				"price": 1.5,
+				"type": "drink",
+				"img": "assets/img/products/chaudfontaine.jpg",
+				"extra": []
+			},
+			{
+				"name": "25cl Red Bull Regular",
+				"desc": "",
+				"price": 2.5,
+				"type": "drink",
+				"img": "assets/img/products/redbull.jpg",
+				"extra": []
+			},
+			{
+				"name": "33cl Coca Cola",
+				"desc": "",
+				"price": 1.5,
+				"type": "drink",
+				"img": "assets/img/products/cocacola.jpg",
+				"extra": [
+					{
+						"name": "Light",
+						"price": 0
+					}
+				]
+			},
+			{
+				"name": "33cl Sprite",
+				"desc": "",
+				"price": 1.5,
+				"type": "drink",
+				"img": "assets/img/products/sprite.jpg",
+				"extra": []
+			},
+			{
+				"name": "33cl Fanta",
+				"desc": "",
+				"price": 1.5,
+				"type": "drink",
+				"img": "assets/img/products/fanta.jpg",
+				"extra": []
+			},
+			{
+				"name": "33cl Nestea Sparkling Lemon",
+				"desc": "",
+				"price": 1.5,
+				"type": "drink",
+				"img": "assets/img/products/nesteasparklinglemon.png",
+				"extra": []
+			}
+		]
+	}
+}

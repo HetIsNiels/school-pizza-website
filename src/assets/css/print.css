@@ -1,0 +1,32 @@
+@page {
+	margin: 0.5cm;
+}
+
+div#jumbo{
+	height: auto;
+}
+
+div#jumbo::before{
+	display: none;
+}
+
+header{
+	text-align: center;
+}
+
+header img{
+	display: none;
+}
+
+header img.print{
+	float: none;
+	display: block;
+}
+
+header nav a{
+	display: none;
+}
+
+footer{
+	display: none;
+}
